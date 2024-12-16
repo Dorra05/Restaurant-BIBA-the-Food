@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBA the Foodie</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/7187/7187676.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 20px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .fa-facebook { background: #3B5998; color: white; }
+        .fa-youtube { background: #bb0000; color: white; }
+        .fa-instagram { background: #cf2c78; color: white; }
+        .hero {
+            background-image: url('https://img.freepik.com/photos-gratuite/portrait-chiens-anthropomorphes-vetus-vetements-humains_23-2151107485.jpg?ga=GA1.1.1875637460.1733510110&semt=ais_hybrid');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        @font-face {
+            font-family: "resto";
+            src: url("nesto-copper-42-font(1)/Nestocopper42-1GVw2.ttf");
+        }
+        .navbar-brand { font-family: "resto"; }
+        @font-face {
+            font-family: "notre";
+            src: url("air-travelers-font/AirtravelerspersonaluseBdit-ow59x.otf");
+        }
+        h2 { font-family: "notre"; }
+        @font-face {
+            font-family: "Apropos";
+            src: url("air-travelers-font/AirtravelerspersonaluseBdit-gxgyE.otf");
+        }
+        h1 { font-family: "Apropos"; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Restaurant BIBA the Foodie</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">À propos de nous</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero d-flex justify-content-center align-items-center text-light">
+        <div class="fs-1 d-grid gap-2">
+            <p>Découvrez nos plats délicieux</p>
+            <a class="btn btn-secondary btn-lg" href="#Menu">Voir le menu</a>
+        </div>
+    </div>
+    <section>
+        <div class="container mt-4" id="Menu">
+            <h2 class="text-center">Notre Menu</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card px-sm-auto px-md-0 pb-sm-2 pb-md-5">
+                        <img src="plat01.jpg" class="img-fluid w-75 w-sm-100 mx-auto p-2" alt="plat01.jpg" style="width: 200px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Le Poulet Hyper Digeste</h5>
+                            <p class="card-text">Fraîchement arrivée, notre recette "Poulet Hyper Digeste" s'adresse en particulier aux intestins les plus sensibles... et aux palais les plus exigeants. Notre recette scientifiquement validée est LA recette la plus digeste du marché avec son taux de digestibilité.</p>
+                            <p class="card-text"><strong>Prix: 45DT</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <img src="plat2.jpg" class="img-fluid w-75 w-sm-100 mx-auto p-2" alt="plat2.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Le poulet gourmand</h5>
+                            <p class="card-text">57% de bon poulet, de quoi faire frétiller les moustaches les plus exigeantes. Et nous ne nous sommes pas arrêtés en si bon chemin : nous avons agrémenté cette belle volaille de patates douces et lentilles corail, de petites carottes finement.</p>
+                            <p class="card-text"><strong>Prix: 75DT</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <img src="plat3.jpg" class="img-fluid w-75 w-sm-100 mx-auto p-2" alt="plat3">
+                        <div class="card-body">
+                            <h5 class="card-title">Le mijoté de Boeuf</h5>
+                            <p class="card-text">Un bon petit mijoté à se caler derrière le gosier ! Qui dit mieux ? Une recette riche en protéines (51 % de bœuf), qui saura régaler les carnivores les plus voraces ! Nous avons mijoté un onctueux écrasé de c’est select chez BIBA the Foodie.</p>
+                            <p class="card-text"><strong>Prix: 65DT</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+    <div class="container my-5" id="about">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="text-center">À propos de notre restaurant</h1>
+                <p>Bienvenue dans notre restaurant BIBA the Foodie, où nous nous engageons à offrir une expérience culinaire inoubliable. Dans notre restaurant, l’ambiance est sophistiquée : lumière tamisée, musique lounge et personnel aux petits soins. Un établissement comme beaucoup d’autres en somme, à ceci près qu’ici, les chiens sont accueillis sur un pied d’égalité avec leurs maîtres.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="apropos.jpg" alt="apropos.jpg" class="img-fluid rounded" style="height: 400px;">
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="container my-5" id="Contact">
+        <h2 class="text-center">Contactez-Nous</table><table></table></h3>
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control border-success" id="name" placeholder="Votre nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control border-success" id="email" placeholder="Votre Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <input type="text" class="form-control border-success" id="Message" placeholder="Votre Message" required>
+            </div>
+            <br></br>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+        <footer class="bg-light text-center py-3">
+            <p>&copy; 2024 Restaurant BIBA the Foodie. Tous droits réservés</p>
+            <p>Av. Taieb Mhiri, Marsa, Gammarth 1057, Mobile: (+216) 98 511 266, Mail: contact@BIBA-Food.com</p>
+            <div>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"> </a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            </div>
+        </footer>       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
